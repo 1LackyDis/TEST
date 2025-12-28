@@ -1,0 +1,85 @@
+body{
+    background-image: url("mountain.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+#login{
+    padding: 20px;
+    border-style:outset;
+    border-width: 1px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    margin: 50px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+
+    margin-top: 60px;
+    margin-bottom: 50px;
+    margin-right: 500px;
+    margin-left: 500px;
+    text-align:center; 
+    text-overflow: hide;
+    
+}
+#LOGINtitle{
+    text-align: center;
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: red;
+}
+#button1{
+    background: transparent;
+    color: white 5.5.5;
+    border: 1px;
+    border-radius: 10px;
+    border-color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+#button1:hover{
+    background: blue;
+    opacity: 0.35;
+    color: white;
+    border-color:rgb(255, 255, 255);
+    border-radius: 10px;
+    transform: scale(1.05);
+    transition: 1.5s;
+
+}
+#logo{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+#moist{
+    color: white;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: none;
+}  
+#par{
+    color: white;
+    font-size: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: none;
+}
+#par2{
+    color: white;
+    font-size: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: none;
+
+}
